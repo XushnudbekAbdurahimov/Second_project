@@ -1,0 +1,214 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.box1 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     border-radius: 50%;
+     position: absolute;
+     animation-name: abc;
+     animation-timing-function: linear;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+
+}
+@keyframes abc{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+
+.box2 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-left: 50px;
+     animation-name: abc2;
+     animation-timing-function: linear;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.5s;
+}
+@keyframes abc2{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+
+.box3 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-left: 100px;
+     animation-name: abc3;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+@keyframes abc3{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+
+.box4 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     margin-left: 100px;
+     border-radius: 50%;
+     margin-top: 50px;
+     animation-name: abc4;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: .8s;
+}
+@keyframes abc4{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.box5 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-top: 50px;
+     animation-name: abc5;
+     animation-timing-function: linear;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-delay: .5s;
+}
+@keyframes abc5{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.box6 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-top: 50px;
+     margin-left: 50px;
+     animation-name: abc6;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.3s;
+}
+@keyframes abc6{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.box7 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-top: 100px;
+     margin-left: 50px;
+     animation-name: abc7;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.5s;
+}
+@keyframes abc7{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.box8 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-top: 100px;
+     margin-left: 100px;
+     animation-name: abc8;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: .2s;
+}
+@keyframes abc8{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.box9 {
+     width: 30px;
+     height: 30px;
+     background-color: blue;
+     position: absolute;
+     border-radius: 50%;
+     margin-top: 100px;
+     animation-name: abc9;
+     animation-timing-function: linear;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: 1.2s;
+}
+@keyframes abc9{
+     0%{
+          filter: contrast(0%);
+     }
+     100%{
+          filter: contrast(100%);
+
+     }
+}
+.all {
+     position: relative;
+     margin-top: 100px;
+     margin-left: 720px;
+}
